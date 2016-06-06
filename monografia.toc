@@ -1,0 +1,5 @@
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {chapter}{\numberline {2}APIs Gr\IeC {\'a}ficas}{9}
+\contentsline {chapter}{\numberline {3}OpenGL}{10}
+\contentsline {chapter}{Refer\^encias}{11}
