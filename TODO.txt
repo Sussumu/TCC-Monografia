@@ -5,3 +5,12 @@ Special Effects: The History and Technique
 https://www.computer.org/csdl/mags/co/1978/11/01646756.pdf
 
 http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15869-f11/www/readings/design_opengl.pdf
+
+Computer Graphics Through OpenGL: From Theory to Experiments, Second Edition
+https://books.google.com.br/books?id=rn3OBQAAQBAJ&pg=PA893&lpg=PA893&dq=The+Design+of+the+OpenGL+Graphics+Interface&source=bl&ots=O4V_EXscYl&sig=wNUAkDEoTWUtQgAAfYZ3pQfCQR8&hl=en&sa=X&ved=0ahUKEwjazIn-sZbNAhUKiJAKHbPkDuIQ6AEIPTAF#v=onepage&q=toy%20story&f=false
+
+SUPER BIBLE
+https://books.google.com.br/books?id=kgkKIxDQi0kC&printsec=frontcover&dq=opengl+bible&hl=en&sa=X&redir_esc=y#v=snippet&q=toy%20story&f=false
+
+OPENGL DISTILLED
+https://books.google.com.br/books?id=ckpNmNlLE_sC&pg=PA27&dq=iris+gl&hl=en&sa=X&ved=0ahUKEwiC3LX405bNAhVDPJAKHRg5A94Q6AEIJDAB#v=onepage&q=iris%20gl&f=false
