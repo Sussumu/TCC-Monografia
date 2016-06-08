@@ -14,3 +14,9 @@ https://books.google.com.br/books?id=kgkKIxDQi0kC&printsec=frontcover&dq=opengl+
 
 OPENGL DISTILLED
 https://books.google.com.br/books?id=ckpNmNlLE_sC&pg=PA27&dq=iris+gl&hl=en&sa=X&ved=0ahUKEwiC3LX405bNAhVDPJAKHRg5A94Q6AEIJDAB#v=onepage&q=iris%20gl&f=false
+
+OpenGL Shading Language
+https://books.google.com.br/books?id=lGpP6OpZxLkC&printsec=frontcover&dq=opengl+shading+language&hl=en&sa=X&ved=0ahUKEwiSgcufiZnNAhWDipAKHaaRCl4Q6AEIHjAA#v=onepage&q=opengl%20shading%20language&f=false
+
+Graphics Shaders: Theory and Practice, Second Edition
+https://books.google.com.br/books?id=K67MBQAAQBAJ&pg=PA92&dq=glsl&hl=en&sa=X&ved=0ahUKEwiAvu2ElZnNAhUFF5AKHdRmDXUQ6AEIUTAH#v=onepage&q=glsl&f=false
