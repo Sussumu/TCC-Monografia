@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  8 JUN 2016 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  13 JUN 2016 17:42
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -917,10 +917,10 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
  (monografia.aux (introducao.aux) (capitulo1.aux) (capitulo2.aux)
 
-LaTeX Warning: Label `irisgl' multiply defined.
+LaTeX Warning: Label `toystory' multiply defined.
 
 
-LaTeX Warning: Label `sage' multiply defined.
+LaTeX Warning: Label `glsl2' multiply defined.
 
 )
 \openout1 = `monografia.aux'.
@@ -1125,17 +1125,14 @@ Cap\'{\i }tulo 2.
 
  (capitulo2.tex
 Cap\'{\i }tulo 3.
-<imagens/toy-story.jpg, id=40, 948.54375pt x 461.725pt>
-File: imagens/toy-story.jpg Graphic file (type jpg)
 
-<use imagens/toy-story.jpg>
-Package pdftex.def Info: imagens/toy-story.jpg used on input line 6.
-(pdftex.def)             Requested size: 331.99529pt x 161.60617pt.
- [10
+LaTeX Warning: Reference `fig:toy-story' on page 10 undefined on input line 2.
+
+[10
 
 
 
- <./imagens/toy-story.jpg>]) [11]
+]) [11]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1145,14 +1142,17 @@ Package pdftex.def Info: imagens/toy-story.jpg used on input line 6.
 
 ] (monografia.aux (introducao.aux) (capitulo1.aux) (capitulo2.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6993 strings out of 493335
- 90931 string characters out of 3139240
- 168851 words of memory out of 3000000
- 10287 multiletter control sequences out of 15000+200000
+ 6997 strings out of 493335
+ 90927 string characters out of 3139240
+ 169857 words of memory out of 3000000
+ 10293 multiletter control sequences out of 15000+200000
  63153 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,41p,1443b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1161,9 +1161,9 @@ s/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on monografia.pdf (13 pages, 908691 bytes).
+Output written on monografia.pdf (13 pages, 811078 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

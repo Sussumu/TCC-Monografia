@@ -1,17 +1,21 @@
 \chapter{OpenGL}
 Ao longo do final do século XX, a computação gráfica ganhou grande importância na vida de pessoas comuns. Tal tecnologia se tornou presente não apenas em usos militares como SAGE (\textit{Semi-Automatic Ground Environment}), sistema que convertia dados de radares em imagens computadorizadas (MACHOVER, 1978) na década de 50, como também em filmes como Toy Story (1995) (figura \ref{fig:toy-story}), primeiro longa-metragem completamente computadorizado (GUHA, 2010).
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.35]{imagens/toy-story.jpg}
-	\caption{\small Filme Toy Story. (Fonte: Pixar, 2016)}
-	\label{fig:toy-story}
-\end{figure}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[scale=0.3]{imagens/toy-story.jpg}
+%	\caption{\small Toy Story (1995), primeiro longa-metragem completamente em CG. (Fonte: Pixar, 2016)}
+%	\label{fig:toy-story}
+%\end{figure}
 
 Na década de 80, boa parte do trabalho gráfico era produzido em \textit{workstations}, que utilizavam a APIs com diferentes implementações, dificultando a produção de programas multiplataforma. Em 1982, a SGI (Silicon Graphics, Inc) começou o desenvolvimento de sua API proprietária IRIS GL, atingindo alta popularidade (MARTZ, 2006). A pressão por uma API aberta e unificada aumentou por parte dos desenvolvedores de software, culminando em 1991 com a formulação do OpenGL ARB (\textit{Architecture Review Board}), consórcio de empresas para regulamentar o projeto, e o lançamento da versão 1.0 no ano seguinte.
 
 Segundo Wright (2013), o OpenGL é uma camada de abstração entre o \textit{software} e o sistema gráfico, devendo permitir que a aplicação execute independente dos diferentes tipos de \textit{hardware}. Além disso, a API precisa operar em diferentes sistemas operacionais, arquiteturas e resoluções de tela, ao mesmo tempo que expõe as características de cada \textit{hardware} para que o programador faça o melhor uso.
 
-Em 2004, com o lançamento da versão 2.0, foi lançada a OpenGL \textit{Shading Language},
+Até o lançamento da versão 2.0 em 2004, todo o processo percorrido pelos vetores até a sua transformação em \textit{pixels} na tela era imutável. Devido a essa padronização, era possível otimizar várias etapas do processo diretamente no \textit{hardware} (BAILEY; CUNNINGHAM, 2012). Por outro lado, alguns efeitos eram difíceis ou não poderiam ser obtidos. Com a evolução tecnológica, tornou-se viável a criação de programas, chamados \textit{shaders}, diretamente para a GPU (\textit{Graphics Processing Unit}).
 
-Com o tempo, várias funções foram adicionadas a especificação, o que tornava difícil a compatibilidade entre todas elas. Por esse motivo, em 2008, o OpenGL ARB decidiu criar dois perfis: \textit{core} e \textit{compatibility}, separando padrões suportados por arquiteturas modernas e obsoletas, respectivamente.
+Através dos \textit{shaders}, pode-se manipular de diferentes formas algumas etapas do processamento gráfico. No OpenGL é usada a linguagem GLSL (OpenGL \textit{Shading Language}), baseada em ANSI C, de onde foi simplificada e adicionada de alguns elementos constantemente presentes na computação gráfica como vetores e matrizes (OPENGL, 2016). Atualmente, existem 4 \textit{shaders} disponíveis: \textit{vertex}, \textit{fragment}, \textit{geometry} e \textit{tesselation}, cada um atuando em uma etapa diferente.
+
+Com o tempo, várias funções foram adicionadas a especificação, o que tornava difícil a compatibilidade entre todas elas. Por esse motivo, em 2008, na versão 3.0, o OpenGL ARB decidiu criar dois perfis: \textit{core} e \textit{compatibility}, separando padrões suportados por arquiteturas modernas e obsoletas, respectivamente.
+
+Desde 2006, o OpenGL ARB se encontra dentro do Khronos Group, consórcio de empresas "para criação abertos para computação paralela, gráfica e de mídia dinâmica" (KHRONOS, 2016). Atualmente, a especificação se encontra na versão 4.5, lançada em 2014.
