@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  14 JUN 2016 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  15 JUL 2016 16:23
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -1042,9 +1042,6 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))) (monografia.aux
 (introducao.aux) (capitulo1.aux) (capitulo2.aux)
 
-LaTeX Warning: Label `toystory' multiply defined.
-
-
 LaTeX Warning: Label `glsl2' multiply defined.
 
 )
@@ -1381,17 +1378,8 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 Cap\'{\i }tulo 1.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 166.
+(Font)              scaled to size 10.51207pt on input line 171.
  [8
-
-
-
-]
-\openout2 = `capitulo1.aux'.
-
- (capitulo1.tex
-Cap\'{\i }tulo 2.
-) [9
 
 
 
@@ -1399,30 +1387,25 @@ Cap\'{\i }tulo 2.
 \openout2 = `capitulo2.aux'.
 
  (capitulo2.tex
-Cap\'{\i }tulo 3.
-[10
+Cap\'{\i }tulo 2.
+[9
 
 
 
 ])
-Overfull \hbox (1.91112pt too wide) in paragraph at lines 21--168
-\T1/mdbch/m/n/12 sas "para cri-a-ção aber-tos para com-pu-ta-ção pa-ra-lela, gr
-á-fica e de mí-dia di-nâ-mica"(KHRONOS,
- []
-
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 168.
-[11]
+(Font)              scaled to size 10.51207pt on input line 173.
+ [10]
 LaTeX Font Info:    Font shape `T1/pcr/m/n' will be
-(Font)              scaled to size 13.008pt on input line 180.
+(Font)              scaled to size 13.008pt on input line 188.
 
-Underfull \hbox (badness 1210) in paragraph at lines 180--182
+Underfull \hbox (badness 1210) in paragraph at lines 188--190
 \T1/mdbch/m/n/12 po-ní-vel em: $\T1/pcr/m/n/12 https : / / www . computer . org
  / csdl / mags / co / 1978 / 11 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 \T1/pcr/m/n/12 opengl _ arb _ to _ pass _ control _ of _ opengl _ specification
  _ to _
  []
@@ -1431,19 +1414,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--201
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[12
+[11
 
 
-] (monografia.aux (introducao.aux) (capitulo1.aux) (capitulo2.aux))
+] (monografia.aux (introducao.aux) (capitulo2.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8053 strings out of 493335
- 108988 string characters out of 3139240
- 177724 words of memory out of 3000000
- 11282 multiletter control sequences out of 15000+200000
+ 8050 strings out of 493335
+ 108947 string characters out of 3139240
+ 177728 words of memory out of 3000000
+ 11283 multiletter control sequences out of 15000+200000
  75945 words of font info for 121 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,41p,1445b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1456,9 +1439,9 @@ a.pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/ch
 arter/bchri8a.pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /mathdesign/mdbch/md-chr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/cou
 rier/ucrr8a.pfb>
-Output written on monografia.pdf (13 pages, 813520 bytes).
+Output written on monografia.pdf (12 pages, 812778 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
