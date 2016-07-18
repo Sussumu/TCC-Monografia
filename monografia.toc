@@ -1,4 +1,5 @@
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{8}
 \contentsline {chapter}{\numberline {2}OpenGL}{9}
-\contentsline {chapter}{Refer\^encias}{11}
+\contentsline {chapter}{\numberline {3}Rendering Pipeline}{11}
+\contentsline {chapter}{Refer\^encias}{13}
