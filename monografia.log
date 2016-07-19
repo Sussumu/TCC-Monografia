@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  18 JUL 2016 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  19 JUL 2016 15:38
 entering extended mode
 **./monografia.tex
 (monografia.tex
@@ -1040,14 +1040,162 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\inconsolata\inconso
-lata.sty
-Package: inconsolata 2016/02/22 v1.10
-
-`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count127
+(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\sourcecodepro\sourc
+ecodepro.sty
+Package: sourcecodepro 2015/10/09 v2.6 Adobe's Source Code Pro typeface
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.def"
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)
+(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\ly1\ly1enc.def
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ly1enc.dfu"
+File: ly1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mweights\mweights.s
+ty
+Package: mweights 2013/07/21 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 53.
+LaTeX Info: Redefining \ttfamily on input line 70.
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -1073,69 +1221,71 @@ LaTeX Warning: Label `glsl2' multiply defined.
 )
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 86
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 98
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 98.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 86.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 98.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.f
 d
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 86.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 98.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.f
 d
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 98.
+ (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\ly1\ly1ptm.fd
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 98.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count127
 \scratchdimen=\dimen133
 \scratchbox=\box60
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count131
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen134
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks35
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
@@ -1173,200 +1323,200 @@ G,.JBIG2,.JB2,.eps]
 )
 
 Package mathdesign/mdbch Warning: Package 'amssymb' shouldn't be used in conjon
-ction with package mdbch, on input line 86.
+ction with package mdbch, on input line 98.
 
 
 Package mathdesign/mdbch Warning: Package 'amsfonts' shouldn't be used in conjo
-nction with package mdbch, on input line 86.
+nction with package mdbch, on input line 98.
 
-\c@lstlisting=\count134
+\c@lstlisting=\count133
 <imagens/brasao.png, id=1, 95.6373pt x 112.9821pt>
 File: imagens/brasao.png Graphic file (type png)
  <use imagens/brasao.png>
-Package pdftex.def Info: imagens/brasao.png used on input line 105.
+Package pdftex.def Info: imagens/brasao.png used on input line 117.
 (pdftex.def)             Requested size: 73.64091pt x 86.99648pt.
 LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 105.
+(Font)              scaled to size 19.91054pt on input line 117.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 19.91054pt on input line 105.
+(Font)              scaled to size 19.91054pt on input line 117.
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
-(Font)              scaled to size 19.91054pt on input line 105.
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 10
-5.
+(Font)              scaled to size 19.91054pt on input line 117.
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot
 1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 10
-5.
+(Font)              scaled to size 6.72005pt on input line 117.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\om
 lmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 105.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 10
-5.
+(Font)              scaled to size 6.72005pt on input line 117.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\om
 smdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 10
-5.
+(Font)              scaled to size 6.72005pt on input line 117.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\om
 xmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
+(Font)              scaled to size 6.72005pt on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 10
-5.
+(Font)              scaled to size 6.72005pt on input line 117.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\md
 amdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 10
-5.
+(Font)              scaled to size 6.72005pt on input line 117.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 11
+7.
 
 (C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\md
 bmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 105.
+(Font)              scaled to size 11.52008pt on input line 117.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 105.
+(Font)              scaled to size 8.64006pt on input line 117.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 105.
+(Font)              scaled to size 6.72005pt on input line 117.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 105.
+(Font)              scaled to size 13.82408pt on input line 117.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 105.
+(Font)              scaled to size 13.82408pt on input line 117.
  [0
 
 {C:/Users/gabriel.kato/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./im
 agens/brasao.png>]
-Underfull \hbox (badness 1158) in paragraph at lines 107--107
+Underfull \hbox (badness 1158) in paragraph at lines 119--119
 \T1/mdbch/m/n/14.4 D.Sc. Si-ci-lia Fer-reira Ponce Pa-sini
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 
  []
 
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 107--107
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 119--119
 []  
  []
 
 [1]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 119.
+(Font)              scaled to size 23.88496pt on input line 131.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 119.
+(Font)              scaled to size 16.58891pt on input line 131.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 119.
+(Font)              scaled to size 13.82408pt on input line 131.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 121.
+(Font)              scaled to size 11.52008pt on input line 133.
  [2] [3]
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 176.
+(Font)              scaled to size 11.52008pt on input line 188.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
@@ -1374,7 +1524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
@@ -1435,45 +1585,77 @@ Package pdftex.def Info: imagens/openglPipeline.png used on input line 4.
 
 
  <./imagens/openglPipeline.png>]
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 15.
+LaTeX Font Info:    Try loading font information for T1+SourceCodePro-TLF on in
+put line 17.
 
-(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\inconsolata\t1zi4.f
-d
-File: t1zi4.fd 2014/06/22 T1/zi4 (Inconsolata)
-)) [12]
+(C:\Users\gabriel.kato\AppData\Roaming\MiKTeX\2.9\tex\latex\sourcecodepro\t1sou
+rcecodepro-tlf.fd
+File: T1SourceCodePro-TLF.fd 2015/10/08 (autoinst) Font definitions for T1/Sour
+ceCodePro-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 17.
+) [12]
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+\T1/mdbch/m/n/12 em: $\T1/SourceCodePro-TLF/m/n/12 https : / / www . computer .
+ org / csdl / mags / co / 1978 / 11 / 01646756 .
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 244--246
+\T1/mdbch/m/it/12 Group\T1/mdbch/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-
+TLF/m/n/12 https : / / www . khronos . org / news / press / opengl _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+\T1/SourceCodePro-TLF/m/n/12 arb _ to _ pass _ control _ of _ opengl _ specica
+tion _ to _ khronos _ group$\T1/mdbch/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 259--261
+[]\T1/mdbch/m/n/12 OpenGL. 2016b. \T1/mdbch/m/it/12 Ren-de-ring Pi-pe-line Over
+-view\T1/mdbch/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-TLF/m/n/12 https :
+ / / www .
+ []
+
+[13
+
+
+]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[13
-
-
-] (monografia.aux (introducao.aux) (capitulo2.aux) (capitulo3.aux))
+[14] (monografia.aux (introducao.aux) (capitulo2.aux) (capitulo3.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8574 strings out of 493335
- 115273 string characters out of 3139240
- 197640 words of memory out of 3000000
- 11782 multiletter control sequences out of 15000+200000
- 75623 words of font info for 120 fonts, out of 3000000 for 9000
+ 8980 strings out of 493335
+ 122869 string characters out of 3139240
+ 212474 words of memory out of 3000000
+ 12163 multiletter control sequences out of 15000+200000
+ 78200 words of font info for 124 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,72p,1445b,1145s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/inconsolata
-/i4-t1-0.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc
-}<C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/inconsola
-ta/Inconsolata-zi4r.pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/bitstrea/charter/bchb8a.pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTe
-X/2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/gabriel.kato/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/gabriel.kat
-o/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users
-/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.
-pfb>
-Output written on monografia.pdf (14 pages, 907443 bytes).
+ 39i,10n,72p,1445b,1254s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/sourcecodep
+ro/a_ind2fo.enc}{C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvi
+ps/ly1/texnansi.enc}<C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><C:/Users/gabriel.kato/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/gabriel.k
+ato/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Use
+rs/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.
+pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/char
+ter/bchri8a.pfb><C:/Users/gabriel.kato/AppData/Roaming/MiKTeX/2.9/fonts/type1/m
+athdesign/mdbch/md-chr8t.pfb>
+Output written on monografia.pdf (15 pages, 923374 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

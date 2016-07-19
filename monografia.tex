@@ -24,7 +24,7 @@
 
 % Code
 \usepackage{listings}
-\usepackage{inconsolata}
+\usepackage{sourcecodepro}
 \usepackage{color}
 \definecolor{bluekeywords}{rgb}{0.13,0.13,1}
 \definecolor{greencomments}{rgb}{0,0.5,0}
@@ -41,7 +41,7 @@
 	commentstyle=\color{greencomments},
 	keywordstyle=\color{bluekeywords},
 	stringstyle=\color{redstrings},
-	basicstyle=\ttfamily
+	basicstyle=\ttfamily\footnotesize
 }
 
 % Não conta numeração de capítulos
@@ -49,24 +49,37 @@
 \counterwithout{figure}{chapter}
 \AtBeginDocument{\counterwithout{lstlisting}{chapter}}
 
-%\makenomenclature
-
-% Para listar programas em C# 
-\lstdefinelanguage{cs}
-  {morekeywords={abstract,event,new,struct,as,explicit,null,switch
+\lstdefinelanguage{glsl}
+{
+	morekeywords={new,struct,null,switch,
 		base,extern,object,this,bool,false,operator,throw,
-		break,finally,out,true,byte,fixed,override,try,
+		break,out,true,byte,fixed,override,try,
 		case,float,params,typeof,catch,for,private,uint,
-		char,foreach,protected,ulong,checked,goto,public,unchecked,
-		class,if,readonly,unsafe,const,implicit,ref,ushort,
+		char,foreach,protected,ulong,public,
+		class,if,const,implicit,ref,ushort,
 		continue,in,return,using,decimal,int,sbyte,virtual,
-		default,interface,sealed,volatile,delegate,internal,short,void,
-		do,is,sizeof,while,double,lock,stackalloc,
-		else,long,static,enum,namespace,string, },
-	  sensitive=false,
-	  morecomment=[l]{//},
-	  morecomment=[s]{/*}{*/},
-	  morestring=[b]",
+		default,interface,sealed,short,void,do,is,sizeof,while,double,lock,else,long,static,enum,string,uniform,layout,version},
+	sensitive=false,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+}
+  
+\lstdefinelanguage{C}
+{
+	morekeywords={abstract,event,new,struct,as,explicit,null,switch
+	base,extern,object,this,bool,false,operator,throw,
+	break,finally,out,true,byte,fixed,override,try,
+	case,float,params,typeof,catch,for,private,uint,
+	char,foreach,protected,ulong,checked,goto,public,unchecked,
+	class,if,readonly,unsafe,const,implicit,ref,ushort,
+	continue,in,return,using,decimal,int,sbyte,virtual,
+	default,interface,sealed,volatile,delegate,internal,short,void,do,is,sizeof,while,double,lock,stackalloc,
+	else,long,static,enum,namespace,string,uniform,layout},
+	sensitive=false,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
 }
 
 \newcommand{\AUTOR}{Gabriel Sussumu Kato}
@@ -231,7 +244,7 @@ Acesso em: 13 de junho de 2016.
 \bibitem{gl2khronos}Khronos Group. 2016. \textit{OpenGL ARB to Pass Control of OpenGL Specification to Khronos Group}. Disponível em: \url{https://www.khronos.org/news/press/opengl_arb_to_pass_control_of_opengl_specification_to_khronos_group}.
 Acesso em: 13 de junho de 2016.
 
-\bibitem{glhistory}OpenGL. 2016. \textit{History of OpenGL}. Disponível em: \url{https://www.opengl.org/wiki/History_of_OpenGL#Deprecation_Model}.
+\bibitem{glhistory}OpenGL. 2016a. \textit{History of OpenGL}. Disponível em: \url{https://www.opengl.org/wiki/History_of_OpenGL#Deprecation_Model}.
 Acesso em: 15 de julho de 2016.
 
 \bibitem{glsl2}Khronos Group. 2016. \textit{About The Khronos Group}. Disponível em: \url{https://www.khronos.org/about/}.
@@ -243,11 +256,14 @@ Acesso em: 13 de junho de 2016.
 
 \bibitem{gpupipeline}SHEN, John. LIPASTI, Mikko. \textit{Modern Processor Design: Fundamentals of Superscalar Processors}. 2013. Waveland Press, Inc. p.40, 51.
 
-\bibitem{renderpipeline}OpenGL. 2016. \textit{Rendering Pipeline Overview}. Disponível em: \url{https://www.opengl.org/wiki/Rendering_Pipeline_Overview}.
+\bibitem{renderpipeline}OpenGL. 2016b. \textit{Rendering Pipeline Overview}. Disponível em: \url{https://www.opengl.org/wiki/Rendering_Pipeline_Overview}.
 Acesso em: 18 de julho de 2016.
 
-\bibitem{imgGLPipeline}OpenGL. 2016. \textit{Rendering Pipeline}. Disponível em: \url{https://www.opengl.org/wiki/File:RenderingPipeline.png}.
-Acesso em: 18 de julho de 2016.
+\bibitem{openglspec}OpenGL. 2016c. \textit{The OpenGL Graphics System:
+A Specification}. Disponível em: \url{https://www.opengl.org/registry/doc/glspec45.core.pdf}.
+Acesso em: 19 de julho de 2016.
+
+\bibitem{realtime}AKENINE-MÖLLER, Tomas. HAINES, Eric. HOFFMAN, Naty. \textit{Real-Time Rendering, Third Edition}. 2016. CRC Press. p.??????????.
 
 
 \end{thebibliography}
