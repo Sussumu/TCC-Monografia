@@ -1,3 +1,13 @@
+Computer Organization & Architecture: Themes and Variations
+
+Real-Time Rendering, Third Edition
+
+Computer Graphics Through OpenGL: From Theory to Experiments, Second Edition
+
+Modern Processor Design: Fundamentals of Superscalar Processors
+
+-------------------------------------------------------------------------------------
+
 The History of Motion Graphics
 
 Special Effects: The History and Technique
