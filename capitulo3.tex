@@ -60,8 +60,23 @@ No próximo estágio opcional, o \textit{geometry shader}, cada primitiva pode s
 \end{figure}
 
 Agora, os vértices passam por uma série de processamentos fixos, o primeiro deles sendo o \textit{transform feedback}. As primitivas geradas anteriormente podem ser armazenadas e recuperadas em \textit{buffer objects}, memórias alocadas pelo programa OpenGL. Isso possibilita que a informação em uso não precise transitar entre a memória RAM e a GPU, diminuindo o tempo de processamento. É útil em sistemas de partículas, por exemplo, onde é necessário simular um grande número de objetos que agem de uma maneira pré-determinada, como a fumaça de uma explosão (figura \ref{fig:rocketleague}).
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{imagens/line-clipping.png}
+		\caption{\textit{Clipping de linha}}
+		\label{fig:lineclipping}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{imagens/triangle-clipping.png}
+		\caption{\textit{Clipping de triângulo} }
+		\label{fig:triangleclipping}
+	\end{subfigure}
+	\caption{\textit{Clipping} (Fonte: WRIGHT, HAEMEL, 2016)}
+\end{figure}
 	
-O próximo passo é o \textit{clipping}, onde somente as coordenadas dentro de um certo intervalo são mantidas no processo, de acordo com o campo de visão que irá aparecer na tela. Pontos isolados fora das coordenadas especificadas são descartados automaticamente, linhas e triângulos parcialmente inclusas nas coordenadas são fragmentadas para aparecerem parcialmente(OPENGL, 2016d).  É possível definir dois tipos de projeção: ortográfica e em perspectiva.
+O próximo passo é o \textit{clipping}, onde são determinadas quais primitivas irão aparecer ou não na tela do programa. É possível definir dois tipos de projeção: ortográfica e em perspectiva. Ambas criam formas no espaço em formato de tronco de paralelepípedo e pirâmide, respectivamente. Pontos isolados fora das coordenadas especificadas são descartados automaticamente. Nas figuras \ref{fig:lineclipping} e \ref{fig:triangleclipping}, podemos notar que as linhas e os triângulos C e D seriam parcialmente inclusos na visualização. Nesse caso são geradas novas primitivas que comportam somente as partes que aparecerão no resultado final (OPENGL, 2016d). 
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -78,7 +93,7 @@ O próximo passo é o \textit{clipping}, onde somente as coordenadas dentro de u
 	\caption{Projeção ortográfica}
 \end{figure}
 
-Na projeção ortográfica (figura \ref{fig:ortofrustum}), definimos largura, altura e comprimento da projeção. É útil na visualização de elementos 2D, como desenhos técnicos e jogos de plataforma, uma vez que as coordenadas são mapeadas diretamente na tela, não havendo distorção.
+Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, altura e comprimento da projeção. É útil na visualização de elementos 2D, como desenhos técnicos e jogos de plataforma, uma vez que as coordenadas são mapeadas diretamente na tela, não havendo distorção.
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -95,4 +110,15 @@ Na projeção ortográfica (figura \ref{fig:ortofrustum}), definimos largura, al
 	\caption{Projeção em perspectiva}
 \end{figure}
 
-Na projeção em perspectiva, 
+Na projeção em perspectiva é criada a ilusão de distância, onde objetos mais distantes são renderizados menores que objetos mais próximos. Na figura \ref{fig:lifeisstrange}, podemos observar que os trilhos do trem convergem para o centro da imagem a medida que se distancia do observador. Esse efeito é causado através da equação \ref{eq:perspectiveprojection}, onde $x$, $y$ e $z$ representam as coordenadas de cada vértice e $w$ é um componente
+
+
+\begin{equation}
+	x = 
+	\begin{pmatrix} 
+		\frac{x}{w} \\
+		\frac{y}{w} \\
+		\frac{z}{w} 
+	\end{pmatrix}
+	\label{eq:perspectiveprojection}
+\end{equation}
