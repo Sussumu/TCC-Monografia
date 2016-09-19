@@ -76,7 +76,22 @@ Agora, os vértices passam por uma série de processamentos fixos, o primeiro de
 	\caption{\textit{Clipping} (Fonte: WRIGHT, HAEMEL, 2016)}
 \end{figure}
 	
-O próximo passo é o \textit{clipping}, onde são determinadas quais primitivas irão aparecer ou não na tela do programa. É possível definir dois tipos de projeção: ortográfica e em perspectiva. Ambas criam formas no espaço em formato de tronco de paralelepípedo e pirâmide, respectivamente. Pontos isolados fora das coordenadas especificadas são descartados automaticamente. Nas figuras \ref{fig:lineclipping} e \ref{fig:triangleclipping}, podemos notar que as linhas e os triângulos C e D seriam parcialmente inclusos na visualização. Nesse caso são geradas novas primitivas que comportam somente as partes que aparecerão no resultado final (OPENGL, 2016d). 
+O próximo passo é o \textit{clipping}, onde são determinadas quais primitivas irão aparecer ou não na tela do programa. Pontos isolados fora das coordenadas especificadas são descartados automaticamente. Nas figuras \ref{fig:lineclipping} e \ref{fig:triangleclipping}, podemos notar que as linhas e os triângulos C e D seriam parcialmente inclusos na visualização. Nesse caso são geradas novas primitivas que comportam somente as partes que aparecerão no resultado final (OPENGL, 2016d).
+
+\begin{equation}
+x = 
+\begin{pmatrix} 
+\frac{x}{w} \\
+\frac{y}{w} \\
+\frac{z}{w} \\
+\frac{w}{w}
+\end{pmatrix}
+\label{eq:perspectiveprojection}
+\end{equation}
+
+Até o momento, cada coordenada é especificada em vetores de 4 componentes (coordenada homogênea), $v = (x, y, z, w)$, uma vez que torna possível o processo de apresentar objetos de três dimensões em duas dimensões da tela do programa (HAEMEL, SELLERS, 2013). Ocorre agora o processo chamado \textit{perspective division} (equação \ref{eq:perspectiveprojection}), onde todos os componentes são divididos pelo componente $w$. Dessa forma é feita a transição do espaço homogêneo para o espaço cartesiano, que representa pontos através de \textit{n}-coordenadas em um espaço \textit{n}-dimensional (WOLFRAM, 2016).
+
+Os dois tipos de projeção mais utilizados são a ortográfica e a em perspectiva. Ambas criam volumes no espaço em formato de tronco de paralelepípedo e pirâmide, respectivamente. 
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -110,15 +125,4 @@ Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, alt
 	\caption{Projeção em perspectiva}
 \end{figure}
 
-Na projeção em perspectiva é criada a ilusão de distância, onde objetos mais distantes são renderizados menores que objetos mais próximos. Na figura \ref{fig:lifeisstrange}, podemos observar que os trilhos do trem convergem para o centro da imagem a medida que se distancia do observador. Esse efeito é causado através da equação \ref{eq:perspectiveprojection}, onde $x$, $y$ e $z$ representam as coordenadas de cada vértice e $w$ é um componente
-
-
-\begin{equation}
-	x = 
-	\begin{pmatrix} 
-		\frac{x}{w} \\
-		\frac{y}{w} \\
-		\frac{z}{w} 
-	\end{pmatrix}
-	\label{eq:perspectiveprojection}
-\end{equation}
+Na projeção em perspectiva é criada a ilusão de distância, onde objetos mais distantes são renderizados menores que objetos mais próximos. Na figura \ref{fig:lifeisstrange}, podemos observar que os trilhos do trem convergem para o centro da imagem a medida que se distancia do observador. 
