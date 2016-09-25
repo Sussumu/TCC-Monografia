@@ -89,7 +89,9 @@ x =
 \label{eq:perspectiveprojection}
 \end{equation}
 
-Até o momento, cada coordenada é especificada em vetores de 4 componentes (coordenada homogênea), $v = (x, y, z, w)$, uma vez que torna possível o processo de apresentar objetos de três dimensões em duas dimensões da tela do programa (HAEMEL, SELLERS, 2013). Ocorre agora o processo chamado \textit{perspective division} (equação \ref{eq:perspectiveprojection}), onde todos os componentes são divididos pelo componente $w$. Dessa forma é feita a transição do espaço homogêneo para o espaço cartesiano, que representa pontos através de \textit{n}-coordenadas em um espaço \textit{n}-dimensional (WOLFRAM, 2016).
+Até o momento, cada coordenada é especificada em vetores de 4 componentes (coordenada homogênea), $v = (x, y, z, w)$, uma vez que torna possível o processo de apresentar objetos de três dimensões em duas dimensões da tela do programa (HAEMEL, SELLERS, 2013). Ocorre agora o processo chamado \textit{perspective division} (equação \ref{eq:perspectiveprojection}), onde todos os componentes são divididos pelo componente $w$. Dessa forma é feita a transição do espaço homogêneo para o espaço cartesiano, que representa pontos através de \textit{n}-coordenadas em um espaço \textit{n}-dimensional (WOLFRAM, 2016). Após a operação, as coordenadas se encontram normalizadas (\textit{Normalized Device Coordinates}), com valores entre -1 e 1.
+
+%No processo de renderização, diversas representações de coordenadas são utilizadas, permitindo que as operações se tornem simplificadas.
 
 Os dois tipos de projeção mais utilizados são a ortográfica e a em perspectiva. Ambas criam volumes no espaço em formato de tronco de paralelepípedo e pirâmide, respectivamente. 
 
@@ -108,7 +110,7 @@ Os dois tipos de projeção mais utilizados são a ortográfica e a em perspecti
 	\caption{Projeção ortográfica}
 \end{figure}
 
-Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, altura e comprimento da projeção. É útil na visualização de elementos 2D, como desenhos técnicos e jogos de plataforma, uma vez que as coordenadas são mapeadas diretamente na tela, não havendo distorção.
+Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, altura e comprimento da projeção. É útil na visualização de elementos 2D, como desenhos técnicos e jogos de plataforma, uma vez que as coordenadas são mapeadas diretamente na tela, não havendo distorção. Nesse caso, o valor do componente $w$ é constante para todas as coordenadas.
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -125,4 +127,26 @@ Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, alt
 	\caption{Projeção em perspectiva}
 \end{figure}
 
-Na projeção em perspectiva é criada a ilusão de distância, onde objetos mais distantes são renderizados menores que objetos mais próximos. Na figura \ref{fig:lifeisstrange}, podemos observar que os trilhos do trem convergem para o centro da imagem a medida que se distancia do observador. 
+Alterando o valor da coordenada $w$ de acordo com a distância do observador, temos a projeção em perspectiva, onde é criada a ilusão de distância, onde objetos mais distantes são renderizados menores que objetos mais próximos. Na figura \ref{fig:lifeisstrange}, podemos observar que os trilhos do trem convergem para o centro da imagem a medida que se distancia do observador.
+
+\begin{lstlisting}[language=c,
+label={lst:viewportfunction},
+caption="Função glViewport"]
+	void glViewport(GLint x, GLint y, GLsizei width, GLsizei height);
+\end{lstlisting}
+
+Agora as coordenadas serão transferidas do espaço normalizado para o espaço da janela (\textit{viewport}). A transformação é definida pela função \ref{lst:viewportfunction}, onde \lstinline{x} e \lstinline{y} são as coordenadas do canto inferior esquerdo da janela e \lstinline{width} e \lstinline{height}, a largura e altura, respectivamente.
+
+No \textit{primitive assembly}, os vértices advindos da última etapa são convertidos em uma sequência de primitivas - pontos, linhas ou triângulos. A renderização também pode ser abortada nessa etapa, caso não seja necessário visualizar o resultado dos processamentos anteriores, como na utilização do \textit{transform feedback}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{imagens/triangle-winding.png}
+	\caption{\small \textit{Determinando a orientação de um triângulo} (Fonte: OPENGL, 2016)}
+	\label{fig:trianglewinding}
+\end{figure}
+
+Ocorre agora uma importante etapa de otimização, o \textit{face culling}, onde os triângulos voltados para o lado oposto ao do observador são descartados da renderização. Através da ordem de cada vértice do triângulo é possível obter a sua orientação (figura \ref{fig:trianglewinding}). Por padrão, triângulos com os vértices no sentido anti-horário são considerados como de frente.
+
+As primitivas que não foram descartadas nos estágios anteriores são transformadas em fragmentos em um processo chamado \textit{rasterization}.
+
