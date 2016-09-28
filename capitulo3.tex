@@ -148,5 +148,49 @@ No \textit{primitive assembly}, os vértices advindos da última etapa são conv
 
 Ocorre agora uma importante etapa de otimização, o \textit{face culling}, onde os triângulos voltados para o lado oposto ao do observador são descartados da renderização. Através da ordem de cada vértice do triângulo é possível obter a sua orientação (figura \ref{fig:trianglewinding}). Por padrão, triângulos com os vértices no sentido anti-horário são considerados como de frente.
 
-As primitivas que não foram descartadas nos estágios anteriores são transformadas em fragmentos em um processo chamado \textit{rasterization}.
+As primitivas que não foram descartadas nos estágios anteriores são transformadas em fragmentos em um processo chamado \textit{rasterization}. Cada fragmento possui uma série de informações associadas, que serão utilizadas para determinar sua cor através do \textit{fragment shader} (WRIGHT, HAEMEL, 2016).
 
+\begin{lstlisting}[language=glsl,
+label={lst:fragmentshader},
+caption="Exemplo de \textit{fragment shader}"]
+	#version 330 core
+	
+	struct Light {
+	vec3 direction;
+	vec3 ambient;
+	vec3 diffuse;
+	vec3 specular;
+	};
+	
+	in vec3 FragPos;  
+	in vec3 Normal;  
+	
+	out vec4 color;
+	
+	uniform vec3 viewPos;
+	uniform vec3 objectColor;
+	uniform Light light;
+	
+	void main()
+	{
+	// Ambient
+	vec3 ambient = light.ambient;
+	
+	// Diffuse 
+	vec3 norm = normalize(Normal);
+	vec3 lightDir = normalize(-light.direction); 
+	float diff = max(dot(norm, lightDir), 0.0);
+	vec3 diffuse = light.diffuse * diff;
+	
+	// Specular
+	vec3 viewDir = normalize(viewPos - FragPos);
+	vec3 reflectDir = reflect(-lightDir, norm);  
+	float spec = pow(max(dot(viewDir, reflectDir), 0.0), 20);
+	vec3 specular = light.specular * spec * 0.3;  
+	
+	vec3 result = (ambient + diffuse + specular) * objectColor;
+	color = vec4(result, 1.0f);
+	} 
+\end{lstlisting}
+
+O \textit{fragment shader} (código \ref{lst:fragmentshader}) é uma etapa programável e opcional onde podem ser definidas informações de iluminação, cor e textura. No código citado, definimos uma \lstinline{struct} que será responsável por armazenar os dados de iluminação para cada fragmento. Declarando-a como \lstinline{uniform}, podemos acessar seu valor em qualquer ponto de nossa aplicação para definir seus valores. Isso também é feito com as variáveis \lstinline{viewPos} e \lstinline{objectColor}, onde iremos armazenar a posição do observador e a cor do fragmento, respectivamente. Note que as variáveis de entrada \lstinline{FragPos} e \lstinline{Normal} são as mesmas que definimos como a saída do \textit{vertex shader} do código \ref{lst:vertexshader}.
