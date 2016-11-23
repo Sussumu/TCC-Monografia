@@ -6,7 +6,7 @@
 	\label{fig:glpipeline}
 \end{figure}
 
-O processo de execução de um programa que exibe resultados em um monitor gráfico requer uma série de etapas, com grande quantidade de cálculos (CLEMENTS, 2014). Assim como na CPU (\textit{Central Processing Unit}, Unidade de Processamento Central), que realiza o processamento geral do computador, a GPU (\textit{Graphics Processing Unit}, Unidade de Processamento Gráfico), também se beneficia de \textit{pipeline}.
+O processo de execução de um programa que exibe resultados em um monitor gráfico requer uma série de etapas, com grande quantidade de cálculos (CLEMENTS, 2014). Assim como a CPU (\textit{Central Processing Unit}, Unidade de Processamento Central), que realiza o processamento geral do computador, a GPU (\textit{Graphics Processing Unit}, Unidade de Processamento Gráfico), também se beneficia de \textit{pipeline}, técnica que consiste em separar as instruções em diversas partes (GOVINDARAJALU, 2004).
 
 Tal processo é definido pela execução paralela de múltiplas etapas, diminuindo a ociosidade do \textit{hardware} e aumentando a taxa de saída de dados (\textit{throuput}) (SHEN e LIPASTI, 2013). Logo que uma primeira instrução é finalizada em uma etapa, uma segunda pode iniciar, desde que não possua outras dependências.
 
@@ -148,7 +148,15 @@ No \textit{primitive assembly}, os vértices advindos da última etapa são conv
 
 Ocorre agora uma importante etapa de otimização, o \textit{face culling}, onde os triângulos voltados para o lado oposto ao do observador são descartados da renderização. Através da ordem de cada vértice do triângulo é possível obter a sua orientação (figura \ref{fig:trianglewinding}). Por padrão, triângulos com os vértices no sentido anti-horário são considerados como de frente.
 
-As primitivas que não foram descartadas nos estágios anteriores são transformadas em fragmentos em um processo chamado \textit{rasterization}. Cada fragmento possui uma série de informações associadas, que serão utilizadas para determinar sua cor através do \textit{fragment shader} (WRIGHT, HAEMEL, 2016).
+As primitivas que não foram descartadas nos estágios anteriores são transformadas em fragmentos em um processo chamado \textit{rasterization}. Cada fragmento possui uma série de informações associadas, que serão utilizadas para determinar sua cor através do \textit{fragment shader} (WRIGHT, HAEMEL, 2016). Entre essas informações estão sua posição na tela, profundidade e outros dados relevantes, como variáveis para cálculo de iluminação, mostradas no código \ref{lst:fragmentshader}.
+
+Ocorre agora uma série de otimizações para descartar fragmentos antes da execução do \textit{fragment shader}. Três operações são efetuadas obrigatoriamente em cada fragmento: \textit{pixel ownership test}, \textit{scissor test} e \textit{multisample fragment operation}. Caso tenham sido ativadas, também são efetuadas \textit{stencil test}, \textit{depth buffer test} e \textit{occlusion query sample counting} (OPENGL, 2016c).
+
+No \textit{pixel ownership test}, cada pixel da janela é testado para verificar se o OpenGL possui controle sobre ele. Um caso onde isso não é verdade acontece quando a janela está oculta por outra.
+
+No \textit{scissor test}, as coordenadas são testadas contra um retângulo que pode ser determinado no programa. Dessa forma é possível realizar operações somente em certas partes da tela, sem afetar o todo.
+
+Caso o \textit{multisampling} esteja ativo, o \textit{multisample fragment operation} é executado. \textit{Multisampling} é uma técnica utilizada para remover o \textit{aliasing}, fenômeno que acontece quando a qualidade da amostra não é suficiente para apresentar satisfatoriamente o conteúdo (WRIGHT, HAEMEL, 2016). Tal defeito é demonstrado através de deformações nas arestas e bordas dos objetos renderizados.
 
 \begin{lstlisting}[language=glsl,
 label={lst:fragmentshader},
@@ -194,3 +202,7 @@ caption="Exemplo de \textit{fragment shader}"]
 \end{lstlisting}
 
 O \textit{fragment shader} (código \ref{lst:fragmentshader}) é uma etapa programável e opcional onde podem ser definidas informações de iluminação, cor e textura. No código citado, definimos uma \lstinline{struct} que será responsável por armazenar os dados de iluminação para cada fragmento. Declarando-a como \lstinline{uniform}, podemos acessar seu valor em qualquer ponto de nossa aplicação para definir seus valores. Isso também é feito com as variáveis \lstinline{viewPos} e \lstinline{objectColor}, onde iremos armazenar a posição do observador e a cor do fragmento, respectivamente. Note que as variáveis de entrada \lstinline{FragPos} e \lstinline{Normal} são as mesmas que definimos como a saída do \textit{vertex shader} do código \ref{lst:vertexshader}.
+
+
+
+
