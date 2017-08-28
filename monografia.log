@@ -1,20 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.31)  23 NOV 2016 00:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.6)  27 AUG 2017 23:26
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./monografia.tex
-(monografia.tex
+(./monografia.tex
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(abntifes.cls (cvs-id.def)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./abntifes.cls (./cvs-id.def)
 
 LaTeX Warning: You have requested document class `abntifes',
                but the document class provides `abnt'.
 
 Document Class: abnt 2006/09/09 v1.32 Classe abnt (NBR6024, NBR6027, NBR6028, N
 BR14724)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
-"
+)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -27,8 +29,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
-ty"
+(c:/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
@@ -76,42 +77,42 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 \mc@col@check@num=\count90
-) (abntex-abrev.sty (cvs-id.def)
+) (./abntex-abrev.sty
+(./cvs-id.def)
 Package: abntex-abrev 2005/11/14 v1.4 Abreviacoes
- (nbr10522-1988.def (cvs-id.def)
+ (./nbr10522-1988.def (./cvs-id.def)
 File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
 88)
-)
-(abntex-abrev-pt_BR.def (cvs-id.def)
+) (./abntex-abrev-pt_BR.def
+(./cvs-id.def)
 File: abntex-abrev-pt_BR.def 2005/11/14 v1.3 definicao de abntex-abrev, traduca
 o de termos en_US/pt_BR
-)) (abntex-text.sty (cvs-id.def)
+)) (./abntex-text.sty (./cvs-id.def)
 Package: abntex-text 2005/11/14 v1.1 abnTeX text replacements
-
-(abntex-text-pt_BR.def (cvs-id.def)
+ (./abntex-text-pt_BR.def
+(./cvs-id.def)
 File: abntex-text-pt_BR.def 2005/12/21 v1.2 Definicao de nomes em Portugues/Bra
 sil (pt_BR)
-)) (abntex-default-design.sty (cvs-id.def)
+)) (./abntex-default-design.sty (./cvs-id.def)
 Package: abntex-default-design 2005/06/22 v1.2 Definicoes de design padrao do a
 bntex
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\relsize.
-sty"
-Package: relsize 2003/07/04 ver 3.1
+(c:/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
 
 
-Package relsize Warning: Failed to get list of font sizes.
-(relsize)                Falling back to old definition. on input line 81.
+Package relsize Warning: Failed to get list of defined font sizes.
+(relsize)                Size scaling will attempt arbitrary sizes..
 
 )
 \ABNTanapindent=\skip46
 \ABNTsignwidth=\skip47
 \ABNTsignthickness=\skip48
 \ABNTsignskip=\skip49
-) (nbr6027-1989.def) (nbr14724-2001.def)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+) (./nbr6027-1989.def) (./nbr14724-2001.def)
+(c:/texlive/2016/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+(c:/texlive/2016/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count91
@@ -127,12 +128,10 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip51
 \bibindent=\dimen113
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspac
-e.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -168,38 +167,36 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.st
-y"
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirs
-t.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-"
+(c:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+(c:/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -436,7 +433,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(c:/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -476,8 +473,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
-"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -501,36 +498,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
-g"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\p
-ortuges.ldf"
+(c:/texlive/2016/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
-f"
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen114
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (algorithm2e.sty
+)) (./algorithm2e.sty
 Package: algorithm2e 2003/10/10
 \c@AlgoLine=\count101
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count102
 \float@exts=\toks17
@@ -538,8 +523,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box53
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
-"
+(c:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 
@@ -568,9 +552,7 @@ me name>)
 \algocf@inputbox=\box55
 \@float@every@algocf=\toks19
 \c@algocf=\count103
-)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\pslatex.
-sty"
+) (c:/texlive/2016/texmf-dist/tex/latex/pslatex/pslatex.sty
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -613,38 +595,32 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/ptm/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Redeclaring math symbol \omicron on input line 79.
-) ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+)
+(c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphic
-s.cfg"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 96.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdfte
-x.def"
+(c:/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count104
@@ -652,30 +628,24 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen118
 \Gin@req@width=\dimen119
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
-ty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen120
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
-ty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen121
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
-ty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count105
@@ -716,8 +686,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.st
-y"
+(c:/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks25
 \thm@bodyfont=\toks26
@@ -729,18 +698,16 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip64
 \dth@everypar=\toks30
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
-.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
-s.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (exercise.sty
+)) (./exercise.sty
 Style-Option: `exercise' v1.0c <91/10/08> (AL)
 English Documentation          <91/10/08> (AL)
 \c@exercise=\count117
@@ -749,16 +716,13 @@ English Documentation          <91/10/08> (AL)
 
 
 Writing answers to monografia.ans.
-)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.sty
-"
+) (c:/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
-) (upquote.sty
+) (./upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
-y"
+(c:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -773,11 +737,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -912,20 +877,18 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)) (epigraph.sty
+)) (./epigraph.sty
 Package: epigraph 2000/01/16 v1.4 typesetting epigraphs
 \beforeepigraphskip=\skip65
 \afterepigraphskip=\skip66
 \epigraphwidth=\skip67
 \epigraphrule=\skip68
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
-.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen129
 \captionmargin@=\dimen130
@@ -938,33 +901,26 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapti
-on.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+(c:/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count119
 \c@subtable=\count120
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mathd
-esign.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\mdbch.cfg")
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\mdbch.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.sty
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdfon
-t.def"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdfont.def
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdsff
-ont.def"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdttf
-ont.def"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdttfont.def
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup8
@@ -1024,14 +980,11 @@ LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
-l.tex"
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
-ls.tex"
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
 )
@@ -1041,8 +994,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
 .
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\t1mdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -1066,15 +1018,14 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip69
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-"
+(c:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
-s.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count122
 \lst@gtempboxa=\box58
 \lst@token=\toks33
@@ -1088,46 +1039,40 @@ s.sty"
 \lst@lineno=\count127
 \lst@maxwidth=\dimen139
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc
-.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count128
 \lst@skipnumbers=\count129
 \lst@framebox=\box59
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
-s.cfg"
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sourcecodepro\so
-urcecodepro.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty
 Package: sourcecodepro 2015/10/09 v2.6 Adobe's Source Code Pro typeface
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
-x.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-"
+(c:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.def
-"
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ot1enc.def
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1enc.def"
+(c:/texlive/2016/texmf-dist/tex/latex/ly1/ly1enc.def
 File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
 Now handling font encoding LY1 ...
 ... processing UTF-8 mapping file for font encoding LY1
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ly1enc.dfu"
+(c:/texlive/2016/texmf-dist/tex/latex/base/ly1enc.dfu
 File: ly1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -1246,13 +1191,12 @@ File: ly1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2122 (decimal 8482)
-)) ("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.de
-f"
+))
+(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mweights\mweight
-s.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/mweights/mweights.sty
 Package: mweights 2013/07/21 (Bob Tennent) Support package for multiple-weight 
 font packages. 
 LaTeX Info: Redefining \bfseries on input line 22.
@@ -1261,28 +1205,85 @@ LaTeX Info: Redefining \rmfamily on input line 36.
 LaTeX Info: Redefining \sffamily on input line 53.
 LaTeX Info: Redefining \ttfamily on input line 70.
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
-ty"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.c
-fg"
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 144.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
-1.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc
-.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\chngcntr\chngcnt
-r.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
-) (monografia.aux (introducao.aux) (capitulo2.aux) (capitulo3.aux)
+) (./monografia.aux
+(./introducao.aux) (./capitulo2.aux) (./capitulo3.aux) (./capitulo3.aux
+
+LaTeX Warning: Label `fig:glpipeline' multiply defined.
+
+
+LaTeX Warning: Label `lst:vertexshader' multiply defined.
+
+
+LaTeX Warning: Label `fig:tesselation' multiply defined.
+
+
+LaTeX Warning: Label `fig:rocketleague' multiply defined.
+
+
+LaTeX Warning: Label `fig:lineclipping' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:lineclipping' multiply defined.
+
+
+LaTeX Warning: Label `fig:triangleclipping' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:triangleclipping' multiply defined.
+
+
+LaTeX Warning: Label `eq:perspectiveprojection' multiply defined.
+
+
+LaTeX Warning: Label `fig:ortofrustum' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ortofrustum' multiply defined.
+
+
+LaTeX Warning: Label `fig:mariobros2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:mariobros2' multiply defined.
+
+
+LaTeX Warning: Label `fig:perspfrustum' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:perspfrustum' multiply defined.
+
+
+LaTeX Warning: Label `fig:lifeisstrange' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:lifeisstrange' multiply defined.
+
+
+LaTeX Warning: Label `lst:viewportfunction' multiply defined.
+
+
+LaTeX Warning: Label `fig:trianglewinding' multiply defined.
+
+
+LaTeX Warning: Label `lst:fragmentshader' multiply defined.
+
+) (./capitulo4.aux)
 
 LaTeX Warning: Label `glsl2' multiply defined.
 
@@ -1298,9 +1299,7 @@ LaTeX Font Info:    ... okay on input line 101.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 101.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 10
 1.
-
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omspzccm.
-fd"
+ (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 101.
@@ -1312,7 +1311,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
 
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 101.
@@ -1320,8 +1319,7 @@ LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 101.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 101.
 
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdacm
-r.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 101.
@@ -1329,8 +1327,7 @@ LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 101.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 101.
 
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbcm
-r.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 101.
@@ -1338,13 +1335,12 @@ LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 101.
 LaTeX Font Info:    Try loading font information for LY1+ptm on input line 101.
 
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1ptm.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
 LaTeX Font Info:    ... okay on input line 101.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
 \scratchdimen=\dimen140
@@ -1357,14 +1353,11 @@ mkii"
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks35
-)
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -1372,28 +1365,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -1404,7 +1391,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(c:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1434,8 +1425,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\ot1mdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -1447,8 +1437,7 @@ LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\omlmdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
@@ -1460,8 +1449,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\omsmdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -1473,8 +1461,7 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\omxmdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
@@ -1498,8 +1485,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\mdamdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -1511,8 +1497,7 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 12
 0.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbch
-\mdbmdbch.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -1527,8 +1512,8 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 13.82408pt on input line 120.
  [0
 
-{C:/Users/sussumu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imagens
-/brasao.png>]
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./imagens/brasa
+o.png>]
 Underfull \hbox (badness 1158) in paragraph at lines 122--122
 \T1/mdbch/m/n/14.4 D.Sc. Si-ci-lia Fer-reira Ponce Pa-sini
  []
@@ -1619,7 +1604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--197
 [5
 
 
-] (monografia.lof
+] (./monografia.lof
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 2.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
@@ -1630,7 +1615,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 
  [6
 
-] (monografia.toc
+] (./monografia.toc
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 (Font)              scaled to size 11.52008pt on input line 2.
 )
@@ -1642,7 +1627,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 ]
 \openout2 = `introducao.aux'.
 
- (introducao.tex
+ (./introducao.tex
 Cap\'{\i }tulo 1.
 ) [8
 
@@ -1651,7 +1636,7 @@ Cap\'{\i }tulo 1.
 ]
 \openout2 = `capitulo2.aux'.
 
- (capitulo2.tex
+ (./capitulo2.tex
 Cap\'{\i }tulo 2.
 [9
 
@@ -1660,9 +1645,9 @@ Cap\'{\i }tulo 2.
 ]) [10]
 \openout2 = `capitulo3.aux'.
 
- (capitulo3.tex
+ (./capitulo3.tex
 Cap\'{\i }tulo 3.
-<imagens/openglPipeline.png, id=44, 271.0125pt x 602.25pt>
+<imagens/openglPipeline.png, id=45, 271.0125pt x 602.25pt>
 File: imagens/openglPipeline.png Graphic file (type png)
 
 <use imagens/openglPipeline.png>
@@ -1676,8 +1661,7 @@ Package pdftex.def Info: imagens/openglPipeline.png used on input line 4.
 LaTeX Font Info:    Try loading font information for T1+SourceCodePro-TLF on in
 put line 17.
 
-("C:\Users\sussumu\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sourcecodepro\t1
-sourcecodepro-tlf.fd"
+(c:/texlive/2016/texmf-dist/tex/latex/sourcecodepro/t1sourcecodepro-tlf.fd
 File: T1SourceCodePro-TLF.fd 2015/10/08 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
@@ -1686,35 +1670,35 @@ LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 17.
 
-<imagens/tesselation.png, id=49, 590.205pt x 304.88907pt>
+<imagens/tesselation.png, id=50, 590.205pt x 304.88907pt>
 File: imagens/tesselation.png Graphic file (type png)
 
 <use imagens/tesselation.png>
 Package pdftex.def Info: imagens/tesselation.png used on input line 42.
 (pdftex.def)             Requested size: 295.10178pt x 152.44415pt.
  [12 <./imagens/tesselation.png>]
-<imagens/rocketleague.jpg, id=56, 1009.7725pt x 403.5075pt>
+<imagens/rocketleague.jpg, id=57, 1009.7725pt x 403.5075pt>
 File: imagens/rocketleague.jpg Graphic file (type jpg)
 
 <use imagens/rocketleague.jpg>
 Package pdftex.def Info: imagens/rocketleague.jpg used on input line 57.
 (pdftex.def)             Requested size: 302.93408pt x 121.05318pt.
  [13 <./imagens/rocketleague.jpg>]
-<imagens/line-clipping.png, id=60, 348.55219pt x 292.84406pt>
+<imagens/line-clipping.png, id=61, 348.55219pt x 292.84406pt>
 File: imagens/line-clipping.png Graphic file (type png)
 
 <use imagens/line-clipping.png>
 Package pdftex.def Info: imagens/line-clipping.png used on input line 66.
 (pdftex.def)             Requested size: 182.09486pt x 152.99026pt.
 
-<imagens/triangle-clipping.png, id=61, 335.75438pt x 323.70938pt>
+<imagens/triangle-clipping.png, id=62, 335.75438pt x 323.70938pt>
 File: imagens/triangle-clipping.png Graphic file (type png)
 
 <use imagens/triangle-clipping.png>
 Package pdftex.def Info: imagens/triangle-clipping.png used on input line 72.
 (pdftex.def)             Requested size: 182.09486pt x 175.56113pt.
  [14 <./imagens/line-clipping.png> <./imagens/triangle-clipping.png>]
-<imagens/orthographic_frustum.png, id=69, 315.1775pt x 259.97125pt>
+<imagens/orthographic_frustum.png, id=70, 315.1775pt x 259.97125pt>
 File: imagens/orthographic_frustum.png Graphic file (type png)
 
 <use imagens/orthographic_frustum.png>
@@ -1722,14 +1706,14 @@ Package pdftex.def Info: imagens/orthographic_frustum.png used on input line 10
 0.
 (pdftex.def)             Requested size: 182.09486pt x 150.2003pt.
 
-<imagens/mariobros2.png, id=70, 192.72pt x 168.63pt>
+<imagens/mariobros2.png, id=71, 192.72pt x 168.63pt>
 File: imagens/mariobros2.png Graphic file (type png)
 
 <use imagens/mariobros2.png>
 Package pdftex.def Info: imagens/mariobros2.png used on input line 106.
 (pdftex.def)             Requested size: 182.09486pt x 159.33302pt.
 
-<imagens/perspective_frustum.png, id=71, 401.5pt x 341.275pt>
+<imagens/perspective_frustum.png, id=72, 401.5pt x 341.275pt>
 File: imagens/perspective_frustum.png Graphic file (type png)
 
 <use imagens/perspective_frustum.png>
@@ -1737,7 +1721,7 @@ Package pdftex.def Info: imagens/perspective_frustum.png used on input line 117
 .
 (pdftex.def)             Requested size: 182.09486pt x 154.78564pt.
 
-<imagens/life-is-strange.jpg, id=72, 385.44pt x 214.401pt>
+<imagens/life-is-strange.jpg, id=73, 385.44pt x 214.401pt>
 File: imagens/life-is-strange.jpg Graphic file (type jpg)
 
 <use imagens/life-is-strange.jpg>
@@ -1745,7 +1729,7 @@ Package pdftex.def Info: imagens/life-is-strange.jpg used on input line 123.
 (pdftex.def)             Requested size: 182.09486pt x 101.28864pt.
  [15 <./imagens/orthographic_frustum.png> <./imagens/mariobros2.png (PNG copy)>
  <./imagens/perspective_frustum.png> <./imagens/life-is-strange.jpg>]
-<imagens/triangle-winding.png, id=78, 353.06906pt x 207.77625pt>
+<imagens/triangle-winding.png, id=79, 353.06906pt x 207.77625pt>
 File: imagens/triangle-winding.png Graphic file (type png)
 
 <use imagens/triangle-winding.png>
@@ -1766,110 +1750,210 @@ a-ção para cada frag-mento. Declarando-
  []
 
 ) [18]
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+\openout2 = `capitulo3.aux'.
+
+ (./capitulo3.tex
+Cap\'{\i }tulo 4.
+File: imagens/openglPipeline.png Graphic file (type png)
+<use imagens/openglPipeline.png>
+Package pdftex.def Info: imagens/openglPipeline.png used on input line 4.
+(pdftex.def)             Requested size: 108.40306pt x 240.89572pt.
+ [19
+
+
+
+]
+File: imagens/tesselation.png Graphic file (type png)
+ <use imagens/tesselation.png>
+Package pdftex.def Info: imagens/tesselation.png used on input line 42.
+(pdftex.def)             Requested size: 295.10178pt x 152.44415pt.
+ [20]
+File: imagens/rocketleague.jpg Graphic file (type jpg)
+
+<use imagens/rocketleague.jpg>
+Package pdftex.def Info: imagens/rocketleague.jpg used on input line 57.
+(pdftex.def)             Requested size: 302.93408pt x 121.05318pt.
+ [21]
+File: imagens/line-clipping.png Graphic file (type png)
+ <use imagens/line-clipping.png>
+Package pdftex.def Info: imagens/line-clipping.png used on input line 66.
+(pdftex.def)             Requested size: 182.09486pt x 152.99026pt.
+File: imagens/triangle-clipping.png Graphic file (type png)
+
+<use imagens/triangle-clipping.png>
+Package pdftex.def Info: imagens/triangle-clipping.png used on input line 72.
+(pdftex.def)             Requested size: 182.09486pt x 175.56113pt.
+ [22]
+File: imagens/orthographic_frustum.png Graphic file (type png)
+
+<use imagens/orthographic_frustum.png>
+Package pdftex.def Info: imagens/orthographic_frustum.png used on input line 10
+0.
+(pdftex.def)             Requested size: 182.09486pt x 150.2003pt.
+File: imagens/mariobros2.png Graphic file (type png)
+ <use imagens/mariobros2.png>
+Package pdftex.def Info: imagens/mariobros2.png used on input line 106.
+(pdftex.def)             Requested size: 182.09486pt x 159.33302pt.
+File: imagens/perspective_frustum.png Graphic file (type png)
+
+<use imagens/perspective_frustum.png>
+Package pdftex.def Info: imagens/perspective_frustum.png used on input line 117
+.
+(pdftex.def)             Requested size: 182.09486pt x 154.78564pt.
+File: imagens/life-is-strange.jpg Graphic file (type jpg)
+ <use imagens/life-is-strange.jpg>
+Package pdftex.def Info: imagens/life-is-strange.jpg used on input line 123.
+(pdftex.def)             Requested size: 182.09486pt x 101.28864pt.
+
+[23]
+File: imagens/triangle-winding.png Graphic file (type png)
+ <use imagens/triangle-winding.png>
+Package pdftex.def Info: imagens/triangle-winding.png used on input line 144.
+(pdftex.def)             Requested size: 211.84306pt x 124.6667pt.
+ [24]
+Overfull \hbox (9.45216pt too wide) in paragraph at lines 159--160
+\T1/mdbch/m/n/12 qua-li-dade da amos-tra não é su-fi-ci-ente para apre-sen-tar 
+sa-tis-fa-to-ri-a-mente o con-teúdo (WRIGHT,
+ []
+
+[25]
+Overfull \hbox (10.7347pt too wide) in paragraph at lines 204--205
+\T1/mdbch/m/n/12 que será res-pon-sá-vel por ar-ma-ze-nar os da-dos de ilu-mi-n
+a-ção para cada frag-mento. Declarando-
+ []
+
+) [26]
+\openout2 = `capitulo4.aux'.
+
+ (./capitulo4.tex
+Cap\'{\i }tulo 5.
+<imagens/bullet-pipeline.png, id=116, 553.31718pt x 228.10219pt>
+File: imagens/bullet-pipeline.png Graphic file (type png)
+
+<use imagens/bullet-pipeline.png>
+Package pdftex.def Info: imagens/bullet-pipeline.png used on input line 9.
+(pdftex.def)             Requested size: 387.31938pt x 159.67043pt.
+) [27
+
+
+
+ <./imagens/bullet-pipeline.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 \T1/mdbch/m/n/12 em: $\T1/SourceCodePro-TLF/m/n/12 https : / / www . computer .
  org / csdl / mags / co / 1978 / 11 / 01646756 .
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 250--252
+Underfull \hbox (badness 1297) in paragraph at lines 251--253
 \T1/mdbch/m/it/12 Group\T1/mdbch/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-
 TLF/m/n/12 https : / / www . khronos . org / news / press / opengl _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 \T1/SourceCodePro-TLF/m/n/12 arb _ to _ pass _ control _ of _ opengl _ cation _
  to _ khronos _ group$\T1/mdbch/m/n/12 . Acesso
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 265--267
+Underfull \hbox (badness 2564) in paragraph at lines 266--268
 []\T1/mdbch/m/n/12 OpenGL. 2016b. \T1/mdbch/m/it/12 Ren-de-ring Pi-pe-line Over
 -view\T1/mdbch/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-TLF/m/n/12 https :
  / / www .
  []
 
-[19
+[28
 
 
 ]
-Underfull \hbox (badness 1038) in paragraph at lines 274--276
+Underfull \hbox (badness 1038) in paragraph at lines 275--277
 []\T1/mdbch/m/n/12 NVIDIA. 2016. \T1/mdbch/m/it/12 GPU Gems 3, ca-pí-tulo 11 - 
 Ef-fi-ci-ent and Ro-bust Sha-dow Vo-lu-mes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
 \T1/SourceCodePro-TLF/m/n/12 / / developer . nvidia . com / gpugems / GPUGems3 
 / gpugems3 _ ch11 . html$\T1/mdbch/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 \T1/SourceCodePro-TLF/m/n/12 story / _ / id / 17356148 / rocket-[]league-[]rost
 ermania-[]free-[]agents$\T1/mdbch/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--291
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
 []\T1/mdbch/m/n/12 Kotaku. 2016. \T1/mdbch/m/it/12 Life is Strange\T1/mdbch/m/n
 /12 . Dis-po-ní-vel em: $\T1/SourceCodePro-TLF/m/n/12 http : / / kotaku . com /
 
  []
 
 
-Overfull \hbox (42.61568pt too wide) in paragraph at lines 289--291
+Overfull \hbox (42.61568pt too wide) in paragraph at lines 290--292
 \T1/SourceCodePro-TLF/m/n/12 i-[]hope-[]this-[]theory-[]about-[]life-[]is-[]str
 anges-[]last-[]episode-[]1737361284$\T1/mdbch/m/n/12 .
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 292--294
+Underfull \hbox (badness 3407) in paragraph at lines 293--295
 []\T1/mdbch/m/n/12 Wolfram. 2016. \T1/mdbch/m/it/12 Car-te-sian Co-or-di-na-tes
 \T1/mdbch/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-TLF/m/n/12 http : / / m
 athworld .
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 292--294
+Underfull \hbox (badness 1331) in paragraph at lines 293--295
 \T1/SourceCodePro-TLF/m/n/12 wolfram . com / CartesianCoordinates . html$\T1/md
 bch/m/n/12 . Acesso em: 18 de se-tem-bro
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 301--303
+[]\T1/mdbch/m/n/12 Bullet. 2015. \T1/mdbch/m/it/12 Bul-let User Ma-nual\T1/mdbc
+h/m/n/12 . Dis-po-ní-vel em: $\T1/SourceCodePro-TLF/m/n/12 https : / / github .
+ com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
+\T1/SourceCodePro-TLF/m/n/12 bulletphysics / bullet3 / blob / master / docs / B
+ullet _ User _ Manual .
  []
 
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[20] (monografia.aux (introducao.aux) (capitulo2.aux) (capitulo3.aux))
+[29] (./monografia.aux (./introducao.aux) (./capitulo2.aux) (./capitulo3.aux)
+(./capitulo3.aux) (./capitulo4.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10237 strings out of 493335
- 149215 string characters out of 3129364
- 236593 words of memory out of 3000000
- 13396 multiletter control sequences out of 15000+200000
- 82223 words of font info for 131 fonts, out of 3000000 for 9000
+ 10284 strings out of 493014
+ 144582 string characters out of 6137002
+ 236549 words of memory out of 5000000
+ 13443 multiletter control sequences out of 15000+600000
+ 82223 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,82p,1445b,1850s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/sussumu/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/sourcecod
-epro/a_ind2fo.enc}{C:/Users/sussumu/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
-/dvips/fontname/texnansi.enc}<C:/Users/sussumu/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><C:/Users/sussumu/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Us
-ers/sussumu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb
-i8a.pfb><C:/Users/sussumu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstre
-a/charter/bchr8a.pfb><C:/Users/sussumu/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/bitstrea/charter/bchri8a.pfb><C:/Users/sussumu/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/sussumu/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/suss
-umu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb
->
-Output written on monografia.pdf (21 pages, 1278106 bytes).
+ 43i,11n,82p,1445b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}{c:/te
+xlive/2016/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}<c:/texlive/2016/texmf-d
+ist/fonts/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/bitstrea/charter/bchbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type
+1/bitstrea/charter/bchr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/bitstrea/
+charter/bchri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/m
+dbch/md-chr7t.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdb
+ch/md-chr7v.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch
+/md-chr8t.pfb>
+Output written on monografia.pdf (30 pages, 1306097 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
