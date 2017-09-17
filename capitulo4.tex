@@ -11,5 +11,21 @@ A biblioteca é estruturada para ser utilizada como um todo ou apenas em parte. 
 	\label{fig:bulletpipeline}
 \end{figure}
 
-A figura \ref{fig:bulletpipeline} apresenta os passos executados na implementação padrão, chamada de \lstinline{btDiscreteDynamicsWorld}. Assim como no objeto que engloba o modelo físico aplicado, outros objetos também possuem o prefixo \lstinline{bt}, como o \lstinline{btScalar}, que representa um número de ponto flutuante e \lstinline{btVector3}, um vetor de 3 posições. Tais abstrações são importantes porque fornecem métodos úteis para a biblioteca encapsulados, além de manter compatibilidade entre diferentes sistemas, uma vez que podemos utilizar  \lstinline{btscalar} independente da implementação do sistema.
+A figura \ref{fig:bulletpipeline} apresenta os passos executados na implementação padrão, chamada de \lstinline{btDiscreteDynamicsWorld}, e onde são utilizados alguns objetos da biblioteca.
+
+\section{Detecção de colisão}
+
+Um dos recursos da biblioteca é a detecção de colisão. Na \textit{broadphase}, ou fase ampla, um algoritmo simples é executado para separar objetos que podem se colidir ou estão em colisão de objetos que não podem se colidir, seja porque estão parados ou muito distantes entre si. Posteriormente será executado um algoritmo mais complexo para definir as interações entre objetos colidindo.
+
+Tais objetos são definidos por \lstinline{btCollisionObject}, que contém suas coordenadas e orientação, além de sua forma de colisão. Uma vez que as formas primitivas possuem algoritmos de colisão mais simples, é aconselhável utiliza-las sempre que possível. A figura \ref{fig:collisionshapes} demonstra a aplicação da esfera, caixa, forma convexa e malha de triângulos, respectivamente. Existem outras formas como cilindro, cone, cápsula, forma côncava e planos.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{imagens/collision-shapes.png}
+	\caption{\small Diferentes formas de colisão aplicadas (Fonte: opengl-tutorial, 2017)}
+	\label{fig:collisionshapes}
+\end{figure}
+
+\section{Dinâmica de corpos rígidos}
+
 

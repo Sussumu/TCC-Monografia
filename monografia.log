@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.6)  27 AUG 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.6)  17 SEP 2017 04:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1833,11 +1833,20 @@ File: imagens/bullet-pipeline.png Graphic file (type png)
 <use imagens/bullet-pipeline.png>
 Package pdftex.def Info: imagens/bullet-pipeline.png used on input line 9.
 (pdftex.def)             Requested size: 387.31938pt x 159.67043pt.
-) [27
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 16.58891pt on input line 16.
+ [27
 
 
 
  <./imagens/bullet-pipeline.png>]
+<imagens/collision-shapes.png, id=120, 963.6pt x 325.215pt>
+File: imagens/collision-shapes.png Graphic file (type png)
+
+<use imagens/collision-shapes.png>
+Package pdftex.def Info: imagens/collision-shapes.png used on input line 22.
+(pdftex.def)             Requested size: 385.43317pt x 130.0837pt.
+) [28 <./imagens/collision-shapes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--234
 \T1/mdbch/m/n/12 em: $\T1/SourceCodePro-TLF/m/n/12 https : / / www . computer .
  org / csdl / mags / co / 1978 / 11 / 01646756 .
@@ -1862,7 +1871,7 @@ Underfull \hbox (badness 2564) in paragraph at lines 266--268
  / / www .
  []
 
-[28
+[29
 
 
 ]
@@ -1922,22 +1931,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--303
 ullet _ User _ Manual .
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+\T1/SourceCodePro-TLF/m/n/12 opengl-[]tutorial . org / ru / miscellaneous / cli
+cking-[]on-[]objects /
+ []
+
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[29] (./monografia.aux (./introducao.aux) (./capitulo2.aux) (./capitulo3.aux)
+[30] (./monografia.aux (./introducao.aux) (./capitulo2.aux) (./capitulo3.aux)
 (./capitulo3.aux) (./capitulo4.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10284 strings out of 493014
- 144582 string characters out of 6137002
+ 10288 strings out of 493014
+ 144755 string characters out of 6137002
  236549 words of memory out of 5000000
- 13443 multiletter control sequences out of 15000+600000
- 82223 words of font info for 131 fonts, out of 8000000 for 9000
+ 13444 multiletter control sequences out of 15000+600000
+ 85159 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,82p,1445b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}{c:/te
@@ -1950,10 +1965,10 @@ charter/bchri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/m
 dbch/md-chr7t.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chr7v.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chr8t.pfb>
-Output written on monografia.pdf (30 pages, 1306097 bytes).
+Output written on monografia.pdf (31 pages, 1474377 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
