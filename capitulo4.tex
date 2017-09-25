@@ -27,5 +27,8 @@ Tais objetos são definidos por \lstinline{btCollisionObject}, que contém suas 
 \end{figure}
 
 \section{Dinâmica de corpos rígidos}
+Corpos rígidos são definidos como um corpo composto de partículas que permanecem a distâncias fixas umas das outras ao longo do tempo. Representam boa parte dos objetos, com exceção corpos que se deformam, como tecidos e líquidos.
 
+Na Bullet Physics é definida por um objeto \lstinline{btRigidBody}, que contém as propriedades necessárias para simular um corpo rígido, como fricção, restituição, velocidade linear e angular. Tais corpos podem ser estáticos, dinâmicos ou \textit{kinematic}. Objetos estáticos possuem massa infinita, declarada como zero na \textit{engine}, não se movem mas podem colidir. Objetos dinâmicos possuem massa positiva e têm sua posição atualizada a cada passo da simulação. Objetos \textit{kinematic} possuem massa infinita e têm sua posição controlada pelo sistema, não pela Bullet.
 
+Para a fazer a interface entre o programa e o modelo físico pode se utilizar de um \textit{motion state}. Através dele a Bullet comunica as alterações nos objetos para que o programa atualize. No caso dos objetos \textit{kinematic}, o funcionamento é inverso: o programa atualiza a Bullet das atualizações feitas para que a biblioteca possa efetuar os cálculos. O método \lstinline{getWorldTransform} retorna um \lstinline{btTransform} com a posição e rotação atualizada do objeto.

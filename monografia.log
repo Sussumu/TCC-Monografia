@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.6)  17 SEP 2017 04:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.6)  25 SEP 2017 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1844,7 +1844,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 File: imagens/collision-shapes.png Graphic file (type png)
 
 <use imagens/collision-shapes.png>
-Package pdftex.def Info: imagens/collision-shapes.png used on input line 22.
+Package pdftex.def Info: imagens/collision-shapes.png used on input line 24.
 (pdftex.def)             Requested size: 385.43317pt x 130.0837pt.
 ) [28 <./imagens/collision-shapes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--234
@@ -1948,10 +1948,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10288 strings out of 493014
- 144755 string characters out of 6137002
+ 10295 strings out of 493014
+ 144879 string characters out of 6137002
  236549 words of memory out of 5000000
- 13444 multiletter control sequences out of 15000+600000
+ 13451 multiletter control sequences out of 15000+600000
  85159 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,82p,1445b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1965,7 +1965,7 @@ charter/bchri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/m
 dbch/md-chr7t.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdb
 ch/md-chr7v.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathdesign/mdbch
 /md-chr8t.pfb>
-Output written on monografia.pdf (31 pages, 1474377 bytes).
+Output written on monografia.pdf (31 pages, 1476200 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
