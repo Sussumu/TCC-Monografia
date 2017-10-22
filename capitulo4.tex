@@ -15,9 +15,9 @@ A figura \ref{fig:bulletpipeline} apresenta os passos executados na implementaç
 
 \section{Detecção de colisão}
 
-Um dos recursos da biblioteca é a detecção de colisão. Na \textit{broadphase}, ou fase ampla, um algoritmo simples é executado para separar objetos que podem se colidir ou estão em colisão de objetos que não podem se colidir, seja porque estão parados ou muito distantes entre si. Posteriormente será executado um algoritmo mais complexo para definir as interações entre objetos colidindo.
+Um dos principais recursos da biblioteca é a detecção de colisão. Na \textit{broadphase}, ou fase ampla, um algoritmo simples é executado para separar objetos que estão se colidindo ou tem a chance de se colidirem, seja porque estão parados ou muito distantes de si. Dessa forma, os cálculos posteriores serão efetuados somente em objetos que possuam alguma probabilidade de colisão.
 
-Tais objetos são definidos por \lstinline{btCollisionObject}, que contém suas coordenadas e orientação, além de sua forma de colisão. Uma vez que as formas primitivas possuem algoritmos de colisão mais simples, é aconselhável utiliza-las sempre que possível. A figura \ref{fig:collisionshapes} demonstra a aplicação da esfera, caixa, forma convexa e malha de triângulos, respectivamente. Existem outras formas como cilindro, cone, cápsula, forma côncava e planos.
+Tais objetos são definidos por \lstinline{btCollisionObject}, que contém suas coordenadas e orientação, além de sua forma de colisão. Uma vez que as formas primitivas possuem algoritmos de colisão mais simples, é aconselhável utiliza-las sempre que possível. A figura \ref{fig:collisionshapes} demonstra a aplicação da esfera, caixa, forma convexa e malha de triângulos, respectivamente. Quanto mais complexa a malha, mais processamento é necessário. Existem outras formas como cilindro, cone, cápsula, forma côncava e planos.
 
 \begin{figure}[H]
 	\centering
@@ -27,8 +27,8 @@ Tais objetos são definidos por \lstinline{btCollisionObject}, que contém suas 
 \end{figure}
 
 \section{Dinâmica de corpos rígidos}
-Corpos rígidos são definidos como um corpo composto de partículas que permanecem a distâncias fixas umas das outras ao longo do tempo. Representam boa parte dos objetos, com exceção corpos que se deformam, como tecidos e líquidos.
+Corpos rígidos são definidos como um corpo composto de partículas que permanecem a distâncias fixas umas das outras ao longo do tempo. Representam todos os objetos, exceto os que se deformam, como tecidos e líquidos.
 
-Na Bullet Physics é definida por um objeto \lstinline{btRigidBody}, que contém as propriedades necessárias para simular um corpo rígido, como fricção, restituição, velocidade linear e angular. Tais corpos podem ser estáticos, dinâmicos ou \textit{kinematic}. Objetos estáticos possuem massa infinita, declarada como zero na \textit{engine}, não se movem mas podem colidir. Objetos dinâmicos possuem massa positiva e têm sua posição atualizada a cada passo da simulação. Objetos \textit{kinematic} possuem massa infinita e têm sua posição controlada pelo sistema, não pela Bullet.
+Na Bullet Physics é definida um objeto \lstinline{btRigidBody}, que contém as propriedades necessárias para simular um corpo rígido, como fricção, restituição, velocidade linear e angular. Tais corpos podem ser estáticos, dinâmicos ou \textit{kinematic}. Objetos estáticos possuem massa infinita, declarada como zero na \textit{engine}, não se movem mas podem colidir. Uma possível aplicação seria para chão e paredes de uma casa. Objetos dinâmicos possuem massa positiva e têm sua posição atualizada a cada passo da simulação. Objetos \textit{kinematic} possuem massa infinita e têm sua posição controlada pelo sistema, não pela Bullet.
 
-Para a fazer a interface entre o programa e o modelo físico pode se utilizar de um \textit{motion state}. Através dele a Bullet comunica as alterações nos objetos para que o programa atualize. No caso dos objetos \textit{kinematic}, o funcionamento é inverso: o programa atualiza a Bullet das atualizações feitas para que a biblioteca possa efetuar os cálculos. O método \lstinline{getWorldTransform} retorna um \lstinline{btTransform} com a posição e rotação atualizada do objeto.
+Para a fazer a interface entre a aplicação e o modelo físico pode se utilizar de um \textit{motion state}. Através dele a Bullet comunica as alterações nos objetos para que o programa atualize. O método \lstinline{getWorldTransform} retorna um \lstinline{btTransform} com a posição e rotação atualizada do objeto. No caso dos objetos \textit{kinematic}, o funcionamento é inverso: o programa atualiza a Bullet das atualizações feitas para que a biblioteca possa efetuar os cálculos. 
