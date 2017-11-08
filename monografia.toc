@@ -1,9 +1,8 @@
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{8}
 \contentsline {chapter}{\numberline {2}OpenGL}{9}
-\contentsline {chapter}{\numberline {4}Rendering Pipeline}{19}
-\contentsline {chapter}{\numberline {4}Rendering Pipeline}{19}
-\contentsline {chapter}{\numberline {5}Bullet Physics}{27}
-\contentsline {section}{\numberline {5.1}Detec\IeC {\c c}\IeC {\~a}o de colis\IeC {\~a}o}{27}
-\contentsline {section}{\numberline {5.2}Din\IeC {\^a}mica de corpos r\IeC {\'\i }gidos}{28}
-\contentsline {chapter}{Refer\^encias}{29}
+\contentsline {chapter}{\numberline {3}Rendering Pipeline}{11}
+\contentsline {chapter}{\numberline {4}Bullet Physics}{19}
+\contentsline {section}{\numberline {4.1}Detec\IeC {\c c}\IeC {\~a}o de colis\IeC {\~a}o}{19}
+\contentsline {section}{\numberline {4.2}Din\IeC {\^a}mica de corpos r\IeC {\'\i }gidos}{20}
+\contentsline {chapter}{Refer\^encias}{21}

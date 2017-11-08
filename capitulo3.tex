@@ -1,8 +1,9 @@
 \chapter{Rendering Pipeline}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{imagens/openglPipeline.png}
-	\caption{\small \textit{Rendering pipeline} OpenGL (Fonte: OPENGL, 2016b)}
+	\caption[\textit{Rendering pipeline} OpenGL]{\textit{Rendering pipeline} OpenGL (Fonte: OPENGL, 2016b)}
 	\label{fig:glpipeline}
 \end{figure}
 
@@ -40,7 +41,7 @@ No código \ref{lst:vertexshader}, podemos notar as entradas definidas por \lsti
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{imagens/tesselation.png}
-	\caption{\small \textit{Tesselation} (Fonte: OPENGL, 2016c)}
+	\caption[\textit{Tesselation}]{\textit{Tesselation} (Fonte: OPENGL, 2016c)}
 	\label{fig:tesselation}
 \end{figure}
 
@@ -55,7 +56,7 @@ No próximo estágio opcional, o \textit{geometry shader}, cada primitiva pode s
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{imagens/rocketleague.jpg}
-	\caption{\small \textit{Efeitos de fumaça em Rocket League} (Fonte: ESPN, 2016)}
+	\caption[Efeitos de fumaça em Rocket League]{Efeitos de fumaça em Rocket League (Fonte: ESPN, 2016)}
 	\label{fig:rocketleague}
 \end{figure}
 
@@ -64,16 +65,16 @@ Agora, os vértices passam por uma série de processamentos fixos, o primeiro de
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/line-clipping.png}
-		\caption{\textit{Clipping de linha}}
+		\caption[Clipping de linha]{\textit{Clipping} de linha}
 		\label{fig:lineclipping}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/triangle-clipping.png}
-		\caption{\textit{Clipping de triângulo} }
+		\caption[Clipping de triângulo]{\textit{Clipping} de triângulo}
 		\label{fig:triangleclipping}
 	\end{subfigure}
-	\caption{\textit{Clipping} (Fonte: WRIGHT, HAEMEL, 2016)}
+	\caption[\textit{Clipping}]{\textit{Clipping} (Fonte: WRIGHT, HAEMEL, 2016)}
 \end{figure}
 	
 O próximo passo é o \textit{clipping}, onde são determinadas quais primitivas irão aparecer ou não na tela do programa. Pontos isolados fora das coordenadas especificadas são descartados automaticamente. Nas figuras \ref{fig:lineclipping} e \ref{fig:triangleclipping}, podemos notar que as linhas e os triângulos C e D seriam parcialmente inclusos na visualização. Nesse caso são geradas novas primitivas que comportam somente as partes que aparecerão no resultado final (OPENGL, 2016d).
@@ -98,13 +99,13 @@ Os dois tipos de projeção mais utilizados são a ortográfica e a em perspecti
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/orthographic_frustum.png}
-		\caption{\textit{Projeção ortográfica} (Fonte: Learn OpenGL, 2016)}
+		\caption[Projeção ortográfica]{Projeção ortográfica (Fonte: Learn OpenGL, 2016)}
 		\label{fig:ortofrustum}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/mariobros2.png}
-		\caption{\textit{Jogo Super Mario Bros 2, projeção ortográfica} (Fonte: Wikipédia, 2016)}
+		\caption[Jogo Super Mario Bros 2, projeção ortográfica]{Jogo Super Mario Bros 2, projeção ortográfica (Fonte: Wikipédia, 2016)}
 		\label{fig:mariobros2}
 	\end{subfigure}
 	\caption{Projeção ortográfica}
@@ -115,13 +116,13 @@ Na projeção ortográfica (figura \ref{fig:ortofrustum}) definimos largura, alt
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/perspective_frustum.png}
-		\caption{\textit{Projeção em perspectiva} (Fonte: Learn OpenGL, 2016)}
+		\caption[Projeção em perspectiva]{Projeção em perspectiva (Fonte: Learn OpenGL, 2016)}
 		\label{fig:perspfrustum}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{imagens/life-is-strange.jpg}
-		\caption{\textit{Jogo Life is Strange, projeção em perspectiva} (Fonte: Kotaku, 2016)}
+		\caption[Jogo Life is Strange, projeção em perspectiva]{Jogo Life is Strange, projeção em perspectiva (Fonte: Kotaku, 2016)}
 		\label{fig:lifeisstrange}
 	\end{subfigure}
 	\caption{Projeção em perspectiva}
@@ -142,7 +143,7 @@ No \textit{primitive assembly}, os vértices advindos da última etapa são conv
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{imagens/triangle-winding.png}
-	\caption{\small \textit{Determinando a orientação de um triângulo} (Fonte: OPENGL, 2016)}
+	\caption[Determinando a orientação de um triângulo]{Determinando a orientação de um triângulo (Fonte: OPENGL, 2016)}
 	\label{fig:trianglewinding}
 \end{figure}
 
